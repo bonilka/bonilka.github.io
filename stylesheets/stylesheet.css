@@ -423,3 +423,34 @@ Small Device Styles
   }
 
 }
+.row{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.row:after{
+    content: '';
+    display: block;
+    min-height: 1px;
+    opacity: 0;
+    clear: both;
+}
+.col-xs-4{
+    float: left;
+    width: 33.3333%;
+    margin: 0;
+    padding: 0;
+}
+.center{
+    text-align: center;
+}
+.pie{
+    display: inline-block;
+}
+.pie--small{
+    width: 100px;
+}
+.pie--big{
+    width: 100%
+}
